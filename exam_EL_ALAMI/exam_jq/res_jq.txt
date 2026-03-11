@@ -1,0 +1,332 @@
+{
+  "first_film": "http://swapi.co/api/films/6/",
+  "name": "Luke Skywalker"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "C-3PO"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "R2-D2"
+}
+{
+  "first_film": "http://swapi.co/api/films/6/",
+  "name": "Darth Vader"
+}
+{
+  "first_film": "http://swapi.co/api/films/6/",
+  "name": "Leia Organa"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Owen Lars"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Beru Whitesun lars"
+}
+{
+  "first_film": "http://swapi.co/api/films/1/",
+  "name": "R5-D4"
+}
+{
+  "first_film": "http://swapi.co/api/films/1/",
+  "name": "Biggs Darklighter"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Obi-Wan Kenobi"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Anakin Skywalker"
+}
+{
+  "first_film": "http://swapi.co/api/films/1/",
+  "name": "Wilhuff Tarkin"
+}
+{
+  "first_film": "http://swapi.co/api/films/6/",
+  "name": "Chewbacca"
+}
+{
+  "first_film": "http://swapi.co/api/films/3/",
+  "name": "Han Solo"
+}
+{
+  "first_film": "http://swapi.co/api/films/1/",
+  "name": "Greedo"
+}
+{
+  "first_film": "http://swapi.co/api/films/4/",
+  "name": "Jabba Desilijic Tiure"
+}
+{
+  "first_film": "http://swapi.co/api/films/3/",
+  "name": "Wedge Antilles"
+}
+{
+  "first_film": "http://swapi.co/api/films/1/",
+  "name": "Jek Tono Porkins"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Yoda"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Palpatine"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Boba Fett"
+}
+{
+  "first_film": "http://swapi.co/api/films/2/",
+  "name": "IG-88"
+}
+{
+  "first_film": "http://swapi.co/api/films/2/",
+  "name": "Bossk"
+}
+{
+  "first_film": "http://swapi.co/api/films/3/",
+  "name": "Lando Calrissian"
+}
+{
+  "first_film": "http://swapi.co/api/films/2/",
+  "name": "Lobot"
+}
+{
+  "first_film": "http://swapi.co/api/films/3/",
+  "name": "Ackbar"
+}
+{
+  "first_film": "http://swapi.co/api/films/3/",
+  "name": "Mon Mothma"
+}
+{
+  "first_film": "http://swapi.co/api/films/3/",
+  "name": "Arvel Crynyd"
+}
+{
+  "first_film": "http://swapi.co/api/films/3/",
+  "name": "Nien Nunb"
+}
+{
+  "first_film": "http://swapi.co/api/films/4/",
+  "name": "Qui-Gon Jinn"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Nute Gunray"
+}
+{
+  "first_film": "http://swapi.co/api/films/4/",
+  "name": "Finis Valorum"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Padmé Amidala"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Jar Jar Binks"
+}
+{
+  "first_film": "http://swapi.co/api/films/4/",
+  "name": "Roos Tarpals"
+}
+{
+  "first_film": "http://swapi.co/api/films/4/",
+  "name": "Rugor Nass"
+}
+{
+  "first_film": "http://swapi.co/api/films/4/",
+  "name": "Ric Olié"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Watto"
+}
+{
+  "first_film": "http://swapi.co/api/films/4/",
+  "name": "Sebulba"
+}
+{
+  "first_film": "http://swapi.co/api/films/4/",
+  "name": "Quarsh Panaka"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Shmi Skywalker"
+}
+{
+  "first_film": "http://swapi.co/api/films/4/",
+  "name": "Darth Maul"
+}
+{
+  "first_film": "http://swapi.co/api/films/3/",
+  "name": "Bib Fortuna"
+}
+{
+  "first_film": "http://swapi.co/api/films/4/",
+  "name": "Dud Bolt"
+}
+{
+  "first_film": "http://swapi.co/api/films/4/",
+  "name": "Gasgano"
+}
+{
+  "first_film": "http://swapi.co/api/films/4/",
+  "name": "Ben Quadinaros"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Mace Windu"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Ki-Adi-Mundi"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Kit Fisto"
+}
+{
+  "first_film": "http://swapi.co/api/films/4/",
+  "name": "Eeth Koth"
+}
+{
+  "first_film": "http://swapi.co/api/films/4/",
+  "name": "Adi Gallia"
+}
+{
+  "first_film": "http://swapi.co/api/films/4/",
+  "name": "Saesee Tiin"
+}
+{
+  "first_film": "http://swapi.co/api/films/4/",
+  "name": "Yarael Poof"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Plo Koon"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Mas Amedda"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Gregar Typho"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Cordé"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Cliegg Lars"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Poggle the Lesser"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Luminara Unduli"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Barriss Offee"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Dormé"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Dooku"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Bail Prestor Organa"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Jango Fett"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Zam Wesell"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Dexter Jettster"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Lama Su"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Taun We"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Jocasta Nu"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "R4-P17"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Wat Tambor"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "San Hill"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Shaak Ti"
+}
+{
+  "first_film": "http://swapi.co/api/films/6/",
+  "name": "Grievous"
+}
+{
+  "first_film": "http://swapi.co/api/films/6/",
+  "name": "Tarfful"
+}
+{
+  "first_film": "http://swapi.co/api/films/1/",
+  "name": "Raymus Antilles"
+}
+{
+  "first_film": "http://swapi.co/api/films/5/",
+  "name": "Sly Moore"
+}
+{
+  "first_film": "http://swapi.co/api/films/6/",
+  "name": "Tion Medon"
+}
+{
+  "first_film": "http://swapi.co/api/films/7/",
+  "name": "Finn"
+}
+{
+  "first_film": "http://swapi.co/api/films/7/",
+  "name": "Rey"
+}
+{
+  "first_film": "http://swapi.co/api/films/7/",
+  "name": "Poe Dameron"
+}
+{
+  "first_film": "http://swapi.co/api/films/7/",
+  "name": "BB8"
+}
