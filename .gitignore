@@ -8,6 +8,11 @@ __pycache__/
 *.zip
 *.rar
 
+# Data files
+*.txt
+*.log
+*.csv
+
 # C extensions
 *.so
 
