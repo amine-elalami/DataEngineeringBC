@@ -1,8 +1,13 @@
 from datetime import datetime
 import asyncio
 import requests
+import os
 from pymongo import MongoClient
 from pprint import pprint
+from dotenv import load_dotenv
+
+env = load_dotenv()
+KEY = os.environ.get("OPENWEATHER_KEY")
 
 async def get_weather(city):
     r = requests.get(
@@ -14,7 +19,6 @@ async def get_weather(city):
     return r.json()
 
 
-KEY = "99803bdebf6d832b9558ce27f444e5dc"
 CITIES = [
     "London", "Paris", "New York", "Tokyo", "Sydney", "Toulouse", "Lyon",
     "Marseille", "Bordeaux", "Nantes", "Strasbourg", "Montpellier",
@@ -25,12 +29,15 @@ async def get_clean_data():
     results = await asyncio.gather(*(get_weather(city) for city in CITIES))
     clean_data = []
     for r_data in results:
-        clean_data.append({
-            "main": r_data["main"],
-            "weather": r_data["weather"],
-            "city": r_data["name"],
-            "time": datetime.fromtimestamp(r_data["dt"]).strftime("%H:%M:%S")
-            })
+        if r_data.get("cod") != 200:
+            print(r_data)
+        else:
+            clean_data.append({
+                "main": r_data["main"],
+                "weather": r_data["weather"],
+                "city": r_data["name"],
+                "time": datetime.fromtimestamp(r_data["dt"]).strftime("%H:%M:%S")
+                })
     return clean_data
 
 async def main():
@@ -41,6 +48,9 @@ async def main():
         password = "dst123"
     )
     clean_data = await get_clean_data()
+    if not clean_data:
+        print("Aucune donnée à insérer dans la base de données.")
+        return
     sample = client['sample']
     if "weather" in sample.list_collection_names():
         sample.drop_collection("weather")
