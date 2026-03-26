@@ -133,14 +133,21 @@ UPDATE Animes
             WHEN source = 'Manga' THEN
                 0
             ELSE NULL
-        END,
+        END;
+
+UPDATE Animes
+    SET
     duration = 
         CASE 
             WHEN type = '0' THEN
-                (CAST(SUBSTRING(duration FROM '([0-9]+) hr') AS INTEGER) * 60) +
-                CAST(SUBSTRING(duration FROM '([0-9]+) min') AS INTEGER)
+                (
+                    CAST(SPLIT_PART(duration, ' ', 1) AS INTEGER) * 60
+                ) +
+                (
+                    CAST(SPLIT_PART(duration, ' ', 3) AS INTEGER)
+                )
             WHEN type = '1' THEN
-                CAST(SUBSTRING(duration FROM '([0-9]+) min') AS INTEGER)
+                CAST(SPLIT_PART(duration, ' ', 1) AS INTEGER)
             ELSE NULL
         END;
 
@@ -159,9 +166,9 @@ ALTER TABLE Animes
 -- Add foreign keys and new columns:
 ALTER TABLE Animes
     ADD COLUMN premiered_id INTEGER DEFAULT NULL,
-    ADD COLUMN studio_id INTEGER NOT NULL,
-    ADD COLUMN rating_id INTEGER NOT NULL,
-    ADD COLUMN start_date DATE NOT NULL,
+    ADD COLUMN studio_id INTEGER,
+    ADD COLUMN rating_id INTEGER,
+    ADD COLUMN start_date DATE,
     ADD COLUMN end_date DATE NULL,
     ADD FOREIGN KEY (premiered_id) REFERENCES Season(season_id),
     ADD FOREIGN KEY (studio_id) REFERENCES Studio(studio_id),
@@ -185,11 +192,12 @@ UPDATE Animes
         FROM Rating
         WHERE Animes.rating = Rating.name
         ),
-    start_date = TO_DATE(SUBSTRING(aired FROM '([A-Za-z]+ [0-9]+, [0-9]+) to'), 'Mon DD, YYYY'),
+    start_date = TO_DATE(SUBSTRING(aired FROM '([A-Za-z]+ [0-9]+, [0-9]+) '), 'Mon DD, YYYY'),
     end_date = TO_DATE(SUBSTRING(aired FROM 'to ([A-Za-z]+ [0-9]+, [0-9]+)'), 'Mon DD, YYYY');
 
 -- Remove the old columns that are now represented by foreign keys and new columns:
 ALTER TABLE Animes
+    DROP COLUMN genres,
     DROP COLUMN aired,
     DROP COLUMN premiered,
     DROP COLUMN producers,
